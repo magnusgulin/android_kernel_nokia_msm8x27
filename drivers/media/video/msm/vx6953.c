@@ -10,7 +10,7 @@
  * GNU General Public License for more details.
  *
  */
-
+#include <linux/module.h>
 #include <linux/delay.h>
 #include <linux/types.h>
 #include <linux/i2c.h>
@@ -3663,5 +3663,3 @@ void vx6953_exit(void)
 {
 	i2c_del_driver(&vx6953_i2c_driver);
 }
-
-
