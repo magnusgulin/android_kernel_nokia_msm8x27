@@ -9,7 +9,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
-
+#include <linux/module.h>
 #include <linux/delay.h>
 #include <linux/types.h>
 #include <linux/i2c.h>
@@ -1411,4 +1411,3 @@ module_init(imx074_init);
 
 MODULE_DESCRIPTION("Sony 13 MP Bayer sensor driver");
 MODULE_LICENSE("GPL v2");
-
