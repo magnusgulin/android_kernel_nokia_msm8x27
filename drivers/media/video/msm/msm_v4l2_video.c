@@ -10,6 +10,7 @@
  * GNU General Public License for more details.
  */
 
+#include <linux/module.h>
 #include <linux/init.h>
 #include <linux/fb.h>
 #include <linux/kernel.h>
